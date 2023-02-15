@@ -16,7 +16,8 @@ public class Forgotpassword {
 	@FindBy (xpath = "//a[text()='Cancel']")
 	private WebElement cancelButton;
 	
-	@FindBy (xpath = "//button[text()='Search']")
+	//@FindBy (xpath = "//button[text()='Search']")
+	@FindBy (xpath = "//button[text()='Search1234']")
 	private WebElement Searchbutton ;
 	
 	
