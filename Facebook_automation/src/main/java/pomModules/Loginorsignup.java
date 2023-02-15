@@ -19,8 +19,8 @@ public class Loginorsignup {
 	@FindBy (xpath = "//a[text()='Forgotten password?']")
 	private WebElement forgotPasswordLink ;
 	
-	//@FindBy (xpath = "//a[text()='Create new account']")
-	//private WebElement createNewAcc;
+	@FindBy (xpath = "//a[text()='Create new account']")
+	private WebElement createNewAcc;
 	
 	@FindBy (xpath = "//a[text()='Create a Page']")
 	private WebElement createPage;
